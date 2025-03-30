@@ -4,7 +4,6 @@ namespace Deployer;
 
 require 'recipe/common.php';
 
-// Project name
 set('application', 'my_project');
 set('writable_mode', 'chmod');
 set('keep_releases', 5);
